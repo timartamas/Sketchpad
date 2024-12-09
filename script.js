@@ -138,15 +138,8 @@ btnRed.addEventListener("click", ()=>{
 
 const slider = document.getElementById("slider2")
 
-slider.addEventListener("change",(val)=>{
-    document.getElementById('textBox').innerHTML=`Size of the board: ${val}*${val} squares`; 
-    
-    populateBoard(val)
-    console.log(`Size of the board: ${val}*${val} squares`)
-})
-
-// function updateTextInput(val) {
-//     document.getElementById('textInput').innerHTML=`Size of the board: ${val}*${val} squares`; 
-//     size = val
-//     populateBoard(size)
-//   }
+function updateTextInput(val) {
+    document.getElementById('textInput').value=`Size = ${val}*${val}`
+    size=val
+    populateBoard(size)
+  }

@@ -208,3 +208,13 @@ html,body{
 #textInput{
   background-color: white;
 }
+
+#divSize-a-b{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#textInput{
+  text-align: center;
+}
