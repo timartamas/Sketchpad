@@ -1,0 +1,210 @@
+html,body{
+  padding:0;
+  margin:0;
+}
+
+.board{
+  width:500px;
+  height:500px;
+  display:grid;
+  border:3px solid black;
+}
+
+#textInput{
+  border:none;
+  width:500px;
+}
+
+#divSize{
+  
+  display:grid;
+  grid-template-columns: 0.15fr 1fr;
+}
+
+#divSize-a{
+  border:1px solid black;
+}
+
+#content{
+  display:grid;
+  grid-template-rows: 0.2fr 1fr 0.1fr 0.3fr;
+}
+
+.title{
+  font-family: "Bruno Ace SC",serif;
+  font-style:italic;
+  display:flex;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  width:500px;
+  border-left:3px solid black;
+  border-top:3px solid black;
+  border-right:3px solid black;
+
+}
+
+#sketchpad{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size:40px;
+  flex-shrink:0;
+  width:500px;
+}
+
+#boardContainer{
+  display:grid;
+  grid-template-columns: 0.374fr 1fr;
+}
+
+.flex-container{
+  display:grid;
+  grid-template-rows:0.03fr 1fr;
+  /* grid-template-columns:0.03fr 1fr; */
+}
+
+#containeraxb{
+  display:grid;
+  grid-template-columns: 0.03fr 1fr;
+}
+
+#p-sketchpad{
+  background-color:rgb(243, 176, 52);
+  color:black;
+  padding:5px;
+  border:3px solid black;
+}
+
+.btns{
+  padding:5px 13px;
+  font-size:15px;
+}
+
+.buttons{
+  /* margin-top:10px; */
+  width:500px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+#btnBlack{
+  background-color:black;
+  color:white;
+  font-weight:bold;
+  border:none;
+  border-radius:5px;
+  border:2px solid black;
+}
+
+#btnBlack:hover{
+  background-color: white;
+  color:black;
+}
+
+#btnRandom{
+  font-weight:bold;
+  background-color: antiquewhite;
+  color:rgb(119, 44, 109);
+  font-weight:bold;
+  border:none;
+  border-radius:5px;
+  border:2px solid black;
+ 
+}
+
+#btnRandom:hover{
+  background-color:rgb(119, 44, 109);
+  color:antiquewhite;
+}
+
+#btnWhite{
+  background-color: white;
+  color:black;
+  font-weight:bold;
+  border:none;
+  border-radius:5px;
+  border:2px solid black;
+}
+
+#btnWhite:hover{
+  color:white;
+  background-color:black;
+}
+
+#btnRed{
+  color:white;
+  background-color:red;
+  border:none;
+  border-radius:5px;
+  border:2px solid black;
+  font-weight:bold;
+
+}
+
+#btnRed:hover{
+  color:red;
+  background-color:white;
+}
+
+#btnReset{
+  background-color: yellow;
+  color:black;
+  font-weight:bold;
+  border: 2px solid black;
+  border-radius:5px;
+}
+
+#btnReset:hover{
+  background-color: black;
+  color:yellow;
+}
+
+#btnBorder{
+  background-color:rgb(228, 228, 228);
+  color:black;
+  font-weight: bold;
+  border-radius:5px;
+  border:2px solid black;
+
+}
+
+#btnBorder:hover{
+  background-color: pink;
+  color:black;
+}
+
+#textInput{
+  font-size:25px;
+}
+
+#divSize-a{
+  width:500px;
+  display:flex;
+  flex-direction: column;
+	
+}
+
+#divSize-a-a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#divSize-a-b{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#slider{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:23px;
+  padding-top:8px;
+}
+
+#textInput{
+  background-color: white;
+}

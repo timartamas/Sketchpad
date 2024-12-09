@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchpad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex-container">
+        <div id="container-x"></div>
+        <div id="containeraxb">
+            <div id="container-a"></div>
+            <div id="container-b">
+                <div id="content">
+                    <div class="title">
+                        <div id="sketchpad"><p id="p-sketchpad">sketchpad</p></div>
+                        <div></div>
+                    </div>
+                    <div id="boardContainer">
+                        <div class="board">
+            
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btns" id="btnBlack">Black</button>
+                        <button class="btns" id="btnRed">Red</button>
+                        <button class="btns" id="btnWhite">Eraser</button>
+            
+                        <button class="btns" id="btnRandom"">Random</button>
+                        <button class="btns" id="btnReset">Reset</button>
+            
+                        <input  class="btns" type="button" id="btnBorder" value="borders">
+                    </div>
+                    <div id="divSize">
+                        <div id="divSize-a">
+            
+                            <div id="slider">**SLIDER BELOW**</div>
+                            <div id="divSize-a-a"><input type="range" id="slider2" name="rangeInput" min="2" max="50" value=27 step="1"></div>
+                            <!-- onchange="updateTextInput(this.value);" -->
+                            <div id="divSize-a-b">
+                                <!-- <input type="text" id="textInput" value="Size of the board: 27*27 squares"> -->
+                                 <button id="textBox">Size of the board: 27*27 squares</button>
+                            </div>
+            
+            
+                        </div>
+                        <div></div>
+            
+            
+                    </div>
+            
+                </div>
+        </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
